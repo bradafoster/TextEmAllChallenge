@@ -28,7 +28,7 @@ namespace TextEmAllChallenge
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // create configuratin builder with appsettings.json file
+            // create configuration builder with appsettings.json file
             var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
 
             // build the configuration builder
